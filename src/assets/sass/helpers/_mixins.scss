@@ -1,0 +1,6 @@
+@mixin btn-custom($bgColor, $textColor, $width, $height) {
+	background-color: $bgColor;
+	color: $textColor;
+	width: $width;
+	height: $height;
+}

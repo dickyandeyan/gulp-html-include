@@ -1,11 +1,15 @@
-@import 'colors';
+@import 'helpers/variables';
+@import 'helpers/mixins';
 
-.container {
-	display: flex;
-	background-color: #090909;
-	color: $primary-color;
-	min-height: 100vh;
-	h1 {
-		font-size: 5rem !important;
-	}
+.test-class {
+	background-color: $primary-color;
+	color: $white
 }
+
+.btn-cta {
+	@include btn-custom($secondary-color, $white, 200px, auto);
+	margin: 0 2em;
+	padding: 2em 1em;
+}
+
+
