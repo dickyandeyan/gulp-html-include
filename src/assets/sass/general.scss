@@ -1,15 +1,4 @@
 @import 'helpers/variables';
 @import 'helpers/mixins';
 
-.test-class {
-	background-color: $primary-color;
-	color: $white
-}
-
-.btn-cta {
-	@include btn-custom($secondary-color, $white, 200px, auto);
-	margin: 0 2em;
-	padding: 2em 1em;
-}
-
 
