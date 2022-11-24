@@ -80,6 +80,16 @@ a {
 	}
 }
 
+.btn-cta-2 {
+	background-color: var(--primary-color);
+	color: var(--bs-yellow);
+
+	&:hover {
+		color: var(--bs-yellow) !important;
+		border: 1px solid var(--bs-yellow) !important;
+	}
+}
+
 .icon-wrapper {
 	width: 80px;
 	height: 80px;
@@ -94,6 +104,10 @@ a {
 	font-size: 1.2rem;
 	padding: 0 5px;
 	border-radius: 8px;
+
+	&:hover {
+		color: var(--primary-color);
+	}
 }
 
 .navbar {
