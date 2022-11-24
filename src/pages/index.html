@@ -8,10 +8,19 @@
 		@@include('../partials/navbar.html')
 	</header>
 	<main>
-		<section>
-			<h1>Hello World</h1>
+		@@include('../partials/banner.html')
+		<section id="our-service">
+			@@include('../partials/homepage/services.html')
+		</section>
+		<section id="our-vision">
+			@@include('../partials/homepage/vision.html')
+		</section>
+		<section id="our-products" class="bg-light" style="padding-bottom: 10em;">
+			@@include('../partials/homepage/products.html')
 		</section>
 	</main>
-	<footer></footer>
+	@@include('../partials/footer.html')
+	<script src=@@webRoot/assets/libs/bootstrap@5.2/js/bootstrap.bundle.min.js></script>
 </body>
+
 </html>
