@@ -36,3 +36,18 @@ ScrollReveal().reveal('.products .card', {
 	duration: 1000,
 	interval: 50,
 })
+
+document.addEventListener('DOMContentLoaded', function () {
+	const splide = new Splide('.splide', {
+		type: 'loop',
+		drag: 'free',
+		focus: 'center',
+		height: '5rem',
+		perPage: 3,
+		pauseOnHover: true,
+		autoScroll: {
+			speed: 1,
+		},
+	})
+	splide.mount(window.splide.Extensions)
+})
